@@ -9,12 +9,8 @@ namespace ClimaTempo.Models
     public class Previsao
     {
         public  string Cidade { get; set; }
-
         public string Estado { get; set; }
-
         public  DateTime Atualiza_em { get; set; }
-
         public List<Clima> Clima { get; set; }
-
     }
 }
